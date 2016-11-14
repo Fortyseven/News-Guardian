@@ -1,0 +1,35 @@
+{
+  "name": "News-Guardian",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-jshint": "latest",
+    "jshint-stylish": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-twig-render": "latest",
+    "grunt-contrib-clean": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-concat": "^1.0.1",
+    "zepto": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fortyseven/News-Guardian.git"
+  },
+  "author": "Fortyseven",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fortyseven/News-Guardian/issues"
+  },
+  "homepage": "https://github.com/Fortyseven/News-Guardian",
+  "dependencies": {
+  }
+}
