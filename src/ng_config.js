@@ -5,7 +5,9 @@ var NewsGuardianConfig = {
      * Default list of highlighted domains
      * @type {string[]}
      */
-    DOMAINS: [ "thejimquisition.com",
+    DOMAINS: [ 
+		"thehardtimes.net", "rstreet.org", "express.co.uk", "breaking911.com", "usasupreme.com", "70news.wordpress.com",
+		"northcrane.com",
         "onion.com", "theonion.com", "clickhole.com", "private-eye.co.uk", "newsbiscuit.com", "thespoof.com",
         "unconfirmedsources.com", "cap-news.com", "enduringvision.com", "derfmagazine.com", "newsmutiny.com",
         "p4rgaming.com", "thedailypixel.com", "dailycurrant.com", "borowitz-report", "callthecops.net",
