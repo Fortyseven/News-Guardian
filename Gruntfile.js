@@ -1,5 +1,7 @@
 'use strict';
 
+//https://github.com/c301/grunt-webstore-upload
+
 module.exports = function(grunt) {
 
     // var config = {
@@ -15,6 +17,20 @@ module.exports = function(grunt) {
         //     },
         //     build: ['src/' + config.path_js + '**/*.js']
         // },
+
+        'string-replace': {
+            version: {
+                files: {
+                    'tmp/manifest.json': ['manifest.json']
+                },
+                options: {
+                    replacements: [{
+                        pattern: /{{ VERSION }}/g,
+                        replacement: '<%= pkg.version %>'
+                    }]
+                }
+            }
+        },
         clean: {
             dist: {
                 options: {
@@ -48,8 +64,8 @@ module.exports = function(grunt) {
             },
             manifest: {
                 files: [{
-                    dest: 'dist/',
-                    src: ['manifest.json']
+                    dest: 'dist/manifest.json',
+                    src: ['tmp/manifest.json']
                 }]
             },
             vendor_scripts: {
@@ -88,6 +104,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     // grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
+    grunt.loadNpmTasks('grunt-string-replace');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-twig-render');
     grunt.loadNpmTasks('grunt-contrib-copy');
@@ -95,6 +112,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
 
     /******** Register Tasks *************/
-    grunt.registerTask('default', ['clean', 'copy', 'concat', 'uglify']); // 'twigRender:main', 'less', 'cssmin',  
+    grunt.registerTask('default', ['clean', 'string-replace', 'copy', 'concat', 'uglify']); // 'twigRender:main', 'less', 'cssmin',  
 
 };
