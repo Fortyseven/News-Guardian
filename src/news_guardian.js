@@ -14,7 +14,11 @@ var NewsGuardian = function() {
         var css_name = "newsguardian-highlight";
 
         var css_grad = "background-color: #ffbbbb";
-        var new_style = "<style>." + css_name + " {transition: background-color 0.75s;  " + css_grad + " !important; box-shadow : 0 0 10px darkred !important;}</style>";
+        //var new_style = "<style>." + css_name + " {transition: background-color 0.75s;  " + css_grad + " !important; box-shadow : 0 0 10px darkred !important;}</style>";
+        var new_style = "<style>." + css_name + ", ." 
+                            + css_name + " span, ." 
+                            + css_name + " div " + 
+                            "{background-color: #ffffA0 !important;}</style>";
 
         $(new_style).appendTo("head");
     };
