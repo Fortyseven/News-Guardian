@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name":             "News Guardian",
-    "description":      "Warns against biased, questionable, and fraudulent news sources in your Facebook feed.",
+    "description":      "Warns against fake news, satire, or questionable content in your Facebook feed.",
     "version":          "{{ VERSION }}",
     "icons":            {
         "16":  "app/assets/icon_16.png",
