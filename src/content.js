@@ -7,7 +7,7 @@ String.prototype.endsWith = function(suffix) {
 
 
 $(document).ready(function() {
-    console.info("News Guardian ready.👍");
+    console.info("News Guardian ready.👍 ("+ NewsGuardianConfig.DOMAINS.length +" sites in index)");
     news_guardian = new NewsGuardian();
     news_guardian.run();
 });
