@@ -6,11 +6,11 @@
 * Chrome: https://chrome.google.com/webstore/detail/news-guardian/iinonikkakojeckpagjdodleifjdaeae
 
 ## About 
-This is a new fork of Gag Reflex. I gave up on updating Gag Reflex, but considering the state of the world right now, a tool like this is needed more than ever. However, I no longer have the time to invest in fixing bugs and providing support, so I have stripped it down to just the bare functionality. 
+This is a new fork of <a href="https://github.com/Fortyseven/GagReflex">Gag Reflex</a>. I gave up on updating Gag Reflex, but considering the state of the world right now, a tool like this is needed more than ever. However, I no longer have the time to invest in fixing bugs and providing support, so I have stripped it down to just the bare functionality. 
 
-If you do not agree my domain selections, feel free to fork your own. Just give it a new name.
+If you do not agree my domain selections, feel free to fork your own. Just give it a new name. However, I would strongly encourage you to add suggestions for new entries and revisions via <a href="https://github.com/Fortyseven/News-Guardian/issues">GitHub issue tickets</a> first, before going that route.
 
-What's currently going on:
+Differences between Gag Reflex and News Guardian:
 
 * All customization options have been removed.
 * Temporarily removed Reddit support.
