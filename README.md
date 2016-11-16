@@ -1,5 +1,11 @@
+<img src="https://i.imgur.com/P7rn5Z3.png"/>
+
 # News Guardian
 
+## Current Builds
+* Chrome: https://chrome.google.com/webstore/detail/news-guardian/iinonikkakojeckpagjdodleifjdaeae
+
+## About 
 This is a new fork of Gag Reflex. I gave up on updating Gag Reflex, but considering the state of the world right now, a tool like this is needed more than ever. However, I no longer have the time to invest in fixing bugs and providing support, so I have stripped it down to just the bare functionality. 
 
 If you do not agree my domain selections, feel free to fork your own. Just give it a new name.
