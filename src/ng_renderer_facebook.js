@@ -17,7 +17,14 @@ var NGRenderer_Facebook = function() {
      */
     function deShimFacebookLink(link) {
         var href_match = link.href.match(/\?u=(.*)&/);
+        
+        // Occasionally we hit an internal link (usually a 'Note')
+        // where there's no domain, just a path
+        if (href_match == null || href_match[1] == null) return;        
+        
         var matched_url = href_match[1];
+
+        
 
         if (matched_url) {
             var url = decodeURIComponent(matched_url);
