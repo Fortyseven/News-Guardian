@@ -82,9 +82,10 @@ module.exports = function(grunt) {
         },
 
         uglify: {
-            // options: {
-            //     banner: '/* <%= pkg.name =%> is a butt <%= grunt.template.today("yyyy-mm-dd) %> */\n'
-            // },
+             options: {
+                 //'mangle': false
+                 //banner: '/* <%= pkg.name =%> is a butt <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+             },
             main_script: {
                 files: {
                     'dist/app/scripts.min.js': ['tmp/scripts.js']
