@@ -1,9 +1,6 @@
-var NewsGuardianConfig = {
-    // FIXME: Don't forget to remove the test links ('subgenius', etc.)
-
+var NewsGuardianConfig = {   
     /**
-     * Default list of highlighted domains
-     * @type {string[]}
+     * Default list of highlighted domains     
      */
     DOMAINS: [
         "100percentfedup.com",
@@ -147,6 +144,7 @@ var NewsGuardianConfig = {
         "govtslaves.info",
         "greenlifes.net",
         "greenmedinfo.com",
+        "greenvillegazette.com",
         "guardianlv.com",
         "gulagbound.com",
         "hangthebankers.com",
