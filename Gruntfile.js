@@ -98,6 +98,14 @@ module.exports = function(grunt) {
                 files: ['src/**/*.js', 'src/**/*.html'],
                 tasks: ['default']
             },
+        },
+
+        zip: {
+            chrome: {
+                cwd: 'dist/',
+                src: ['dist/**/*'],
+                dest: '_releases/news-guardian-chrome-<%= pkg.version %>.zip'
+            }
         }
     });
 
@@ -111,6 +119,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-zip');
 
     /******** Register Tasks *************/
     grunt.registerTask('default', ['clean', 'string-replace', 'copy', 'concat', 'uglify']); // 'twigRender:main', 'less', 'cssmin',  
