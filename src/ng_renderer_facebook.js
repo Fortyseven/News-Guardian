@@ -58,7 +58,7 @@ var NGRenderer_Facebook = function() {
                                 return;
                             }
                         }
-                        console.log("Scanning for " + href);
+                        //console.log("Scanning for " + href);
                         for (var domain_idx in NewsGuardianConfig.DOMAINS) {
                             if (parse(NewsGuardianConfig.DOMAINS[domain_idx], href, article)) break;
                         }
