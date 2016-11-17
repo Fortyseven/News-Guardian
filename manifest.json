@@ -14,7 +14,7 @@
     "content_scripts":  [
         {
             "matches": [
-                "<all_urls>"
+                "*://*.facebook.com/*"
             ],
             "js":      [
                 "app/vendor/zepto.min.js",
@@ -25,7 +25,6 @@
     ],
     "permissions":      [
         "activeTab",
-        "storage",
         "*://*.facebook.com/*"
     ]
 }
