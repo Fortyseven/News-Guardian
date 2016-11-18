@@ -1,6 +1,6 @@
-var NewsGuardianConfig = {   
+var NewsGuardianConfig = {
     /**
-     * Default list of highlighted domains     
+     * Default list of highlighted domains
      */
     DOMAINS: [
         "100percentfedup.com",
@@ -70,6 +70,7 @@ var NewsGuardianConfig = {
         "consciouslifenews.com",
         "consciouslyenlightened.com",
         "conservapedia.com",
+        "conservative101.com",
         "conservativeoutfitters.com",
         "conservativetribune.com",
         "conspiracytheorist.com.au",
@@ -150,6 +151,7 @@ var NewsGuardianConfig = {
         "hangthebankers.com",
         "healthimpactnews.com",
         "healthiswealthofheart.com",
+        "healthmagazine365.com",
         "healthy-holistic-living.com",
         "healthyandnaturallife.com",
         "henrymakow.com",
@@ -340,6 +342,7 @@ var NewsGuardianConfig = {
         "therightscoop.com",
         "therundownlive.com",
         "thesciencepost.com",
+        "theshovel.com.au",
         "thesleuthjournal.com",
         "thespiritscience.net",
         "thespoof.com",
