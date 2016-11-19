@@ -57,10 +57,21 @@ module.exports = function(grunt) {
                     src: ['**/*.*']
                 }]
             },
-            content_js: {
+            loose_js: {
                 files: {
-                    'dist/app/content.js': ["src/content.js"]
+                    'dist/app/content.js': ["src/content.js"],
+                    'dist/app/options.js': ["src/options.js"]
                 }
+            },
+            html: {
+                files:[{
+                    expand: true,
+                    flatten: false,
+                    dot: true,
+                    cwd: 'src/',
+                    dest: 'dist/app/',
+                    src: ['**/*.html']                    
+                }]                                  
             },
             manifest: {
                 files: [{
@@ -76,7 +87,7 @@ module.exports = function(grunt) {
         },
         concat: {
             js: {
-                src: ['src/*.js', '!src/content.js'],
+                src: ['src/*.js', '!src/content.js', '!src/options.js'],
                 dest: 'tmp/scripts.js'
             }
         },
@@ -95,7 +106,7 @@ module.exports = function(grunt) {
 
         watch: {
             scripts: {
-                files: ['src/**/*.js', 'src/**/*.html'],
+                files: ['src/**/*.js', 'src/**/*.html', 'manifest.json', 'package.json'],
                 tasks: ['default']
             },
         },

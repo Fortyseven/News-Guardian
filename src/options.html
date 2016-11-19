@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>News Guardian Settings</title>
+    <style>
+        legend {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        fieldset {
+            border: 1px solid;
+        }
+        p {
+            text-align: justify;
+        }
+        footer {
+            padding-top: 1em;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        NOTE: It's important to remember that just because a site is being highlighted, it does 
+        not necessarily mean an article is untrue. Always look for a source for a story, and be 
+        aware of any potential bias in the presentation of that information.
+    </p>
+    <p>
+        Ultimately, the best defense against fake news is to develop your <a href="https://en.wikipedia.org/wiki/Critical_thinking">critical thinking</a> skills, and teach
+        yourself to <a href="http://www.snopes.com/2016/01/14/fake-news-sites/">recognize the signs</a>!
+    </p>
+    <fieldset>
+    <legend>Highlight color</legend>
+    <div><input type="color" id="highlightColor"/></div>
+    </fieldset>
+    <fieldset>
+        <legend>Enabled on...</legend>
+        <div><label><input type="checkbox" id="enabledFacebook">  Facebook</label></div>
+        <div><label><input type="checkbox" id="enabledGoogle">  Google search results</label></div>
+        <div><label><input type="checkbox" id="enabledReddit">  Reddit</label></div>
+    </fieldset>
+    <footer>
+       Fork the project on <a href="https://github.com/Fortyseven/News-Guardian/">GitHub</a>, or <a href="https://github.com/Fortyseven/News-Guardian/issues">report issues or site suggestions</a>. 
+    </footer>
+    <!--<div id="status"></div>-->
+    <!--<br/>
+    <div><button id="save">Save</button></div>-->
+    <script src="options.js">&nbsp;</script>
+</body>
+</html>
