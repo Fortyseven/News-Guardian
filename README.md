@@ -8,7 +8,9 @@
 ## About 
 This is a new fork of <a href="https://github.com/Fortyseven/GagReflex">Gag Reflex</a>. I gave up on updating Gag Reflex, but considering the state of the world right now, a tool like this is needed more than ever. However, I no longer have the time to invest in fixing bugs and providing support, so I have stripped it down to just the bare functionality. 
 
-If you do not agree my domain selections, feel free to fork your own. Just give it a new name. However, I would strongly encourage you to add suggestions for new entries and revisions via <a href="https://github.com/Fortyseven/News-Guardian/issues">GitHub issue tickets</a> first, before going that route.
+Here's the [current list](https://github.com/Fortyseven/News-Guardian/blob/master/src/ng_config.js) of sites covered.
+
+If you do not agree my domain selections, feel free to fork your own. Just give it a new name. *However*, I would strongly encourage you to add suggestions for new entries and revisions via <a href="https://github.com/Fortyseven/News-Guardian/issues">GitHub issue tickets</a> first, before going that route.
 
 Differences between Gag Reflex and News Guardian:
 
