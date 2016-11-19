@@ -91,6 +91,7 @@ var NewsGuardianConfig = {
         "dailymediabuzz.com",
         "dailynewsbin.com",
         "dailystar.co.uk",
+        "dailystormer.com",
         "dailywire.com",
         "davidicke.com",
         "dcclothesline.com",
@@ -127,12 +128,10 @@ var NewsGuardianConfig = {
         "fixedearth.com",
         "foodbabe.com",
         "forbes.com",
-        "foxnews.com",
         "fprnradio.com",
         "freerepublic.com",
         "freewoodpost.com",
         "fromthetrenchesworldreport.com",
-        "fxn.ws",
         "geoengineeringwatch.org",
         "globalassociatednews.com",
         "globalresearch.ca",
@@ -407,12 +406,12 @@ var NewsGuardianConfig = {
         "zerohedge.com",
         "zonnews.com",
         "zootfeed.com",
+        // "mirror.co.uk",
+        // "utm_hp_ref=satire",
+        // ".rt.com",
         // "borowitz-report",
         // "dailykos.com",
-        /*"mirror.co.uk",*/
-        /*"utm_hp_ref=satire",*/
-        // ".rt.com",
-
-        // If Drudge Report actually hosted its own original content, rest assured, a link to the site would go here.
+        // "foxnews.com",
+        // "fxn.ws",
     ]
 };
