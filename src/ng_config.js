@@ -3,6 +3,9 @@ var NewsGuardianConfig = {
      * Default list of highlighted domains
      */
     DOMAINS: [
+		"faithfamilyamerica.com",
+		"newser.com",
+		"trump-meter.com",
         "100percentfedup.com",
         "21stcenturywire.com",
         "70news.wordpress.com",
