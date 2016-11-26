@@ -3,6 +3,8 @@ var NewsGuardianConfig = {
      * Default list of highlighted domains
      */
     DOMAINS: [
+		"thebeaverton.com",
+		"healthcure.press",
 		"faithfamilyamerica.com",
 		"newser.com",
 		"trump-meter.com",
@@ -357,7 +359,7 @@ var NewsGuardianConfig = {
         "thetruthseeker.co.uk",
         "theunhivedmind.com",
         "theuspatriot.com",
-        "thinkprogress.org",
+//        "thinkprogress.org",
         "tomatobubble.com",
         "topekasnews.com",
         "topinfopost.com",
