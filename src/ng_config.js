@@ -3,11 +3,6 @@ var NewsGuardianConfig = {
      * Default list of highlighted domains
      */
     DOMAINS: [
-		"thebeaverton.com",
-		"healthcure.press",
-		"faithfamilyamerica.com",
-		"newser.com",
-		"trump-meter.com",
         "100percentfedup.com",
         "21stcenturywire.com",
         "70news.wordpress.com",
@@ -40,7 +35,7 @@ var NewsGuardianConfig = {
         "barrychamish.com",
         "beforeitsnews.com",
         "beingliberal.tumblr.com",
-        "bettybowers.com",              // satire
+        "bettybowers.com", // satire
         "bigamericannews.com",
         "bigpzone.com",
         "bipartisanreport.com",
@@ -68,7 +63,7 @@ var NewsGuardianConfig = {
         "chuckcallesto.blogspot.com",
         "civictribune.com",
         "clashdaily.com",
-        "clickhole.com",                // satire
+        "clickhole.com", // satire
         "coasttocoastam.com",
         "colemanluck.net",
         "collective-evolution.com",
@@ -131,6 +126,7 @@ var NewsGuardianConfig = {
         "examiner.com",
         "exopolitics.org",
         "express.co.uk",
+        "faithfamilyamerica.com",
         "federalistpress.com",
         "fixedearth.com",
         "foodbabe.com",
@@ -155,6 +151,7 @@ var NewsGuardianConfig = {
         "guardianlv.com",
         "gulagbound.com",
         "hangthebankers.com",
+        "healthcure.press",
         "healthimpactnews.com",
         "healthiswealthofheart.com",
         "healthmagazine365.com",
@@ -225,6 +222,7 @@ var NewsGuardianConfig = {
         "news.bfnn.co.uk",
         "newsbiscuit.com",
         "newsbusters.org",
+        "newser.com",
         "newshounds.us",
         "newslo.com",
         "newsmutiny.com",
@@ -239,8 +237,8 @@ var NewsGuardianConfig = {
         "nowtheendbegins.com",
         "oathkeepers.org",
         "occupydemocrats.com",
-        "onion.com",                // satire
-        "onionstudios.com",         // satire
+        "onion.com", // satire
+        "onionstudios.com", // satire
         "opednews.com",
         "openminds.tv",
         "oppositionnews.org",
@@ -321,6 +319,7 @@ var NewsGuardianConfig = {
         "tarpley.net",
         "the-daily.buzz",
         "theantimedia.org",
+        "thebeaverton.com",
         "theblaze.com",
         "thecommonsenseshow.com",
         "thecontroversialfiles.net",
@@ -359,13 +358,13 @@ var NewsGuardianConfig = {
         "thetruthseeker.co.uk",
         "theunhivedmind.com",
         "theuspatriot.com",
-//        "thinkprogress.org",
         "tomatobubble.com",
         "topekasnews.com",
         "topinfopost.com",
         "topsecretwriters.com",
         "totalfratmove.com",
         "tradyouth.org",
+        "trump-meter.com",
         "truth-out.org",
         "truthalerts.com",
         "truthandaction.org",
@@ -385,6 +384,7 @@ var NewsGuardianConfig = {
         "upworthy.com",
         "usahitman.com",
         "usasupreme.com",
+        "usatoday.com.co",
         "usuncut.com",
         "vdare.com",
         "veteranstoday.com",
@@ -393,6 +393,7 @@ var NewsGuardianConfig = {
         "wakeup-world.com",
         "wakingtimes.com",
         "wanttoknow.info",
+        "washingtonpost.com.co",
         "watch-unto-prayer.org",
         "waterfordwhispersnews.com",
         "wattsupwiththat.com",
@@ -416,6 +417,7 @@ var NewsGuardianConfig = {
         "zerohedge.com",
         "zonnews.com",
         "zootfeed.com",
+        // "thinkprogress.org",
         // "mirror.co.uk",
         // "utm_hp_ref=satire",
         // ".rt.com",
