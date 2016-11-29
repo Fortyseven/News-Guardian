@@ -3,6 +3,7 @@ var NewsGuardianConfig = {
      * Default list of highlighted domains
      */
     DOMAINS: [
+		"thepoliticalinsider.com",
         "100percentfedup.com",
         "21stcenturywire.com",
         "70news.wordpress.com",
