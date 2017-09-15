@@ -1,0 +1,8 @@
+*.twig diff
+*.less diff
+*.css diff
+*.html diff
+*.php diff
+*.js diff
+*.json diff
+*.yml diff
